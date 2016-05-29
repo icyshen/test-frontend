@@ -33,9 +33,16 @@ Main
 * The table filter needs to be able to filter the result in the table by the type and keywords
 * The table is nested, and grouped by state, district, township
 
-## Getting started
+## Run the code
 
-There's nothing here, we leave it to you to choose the build tool, code structure, framework, testing approach...
+- make sure you have npm installed
+- clone or download the code
+- run following commands in console
+```console
+$ npm install
+$ node_modules/.bin/webpack-dev-server
+```
+Then you can access the page from <http://localhost:8080/>.
 
 ## Requirements
 
